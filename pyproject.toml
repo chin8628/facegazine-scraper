@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "facegazine-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Boonyarith Piriyothinkul <boonyarith.pir@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+facebook-scraper = "^0.2.47"
+schedule = "^1.1.0"
+pymongo = "^3.12.0"
+dnspython = "^2.1.0"
+pandas = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
